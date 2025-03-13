@@ -2,7 +2,7 @@ module.exports = {
     basePath: '/app',
     output: 'export',
     distDir: 'dist',
-    exportTrailingSlash: true,
+    trailingSlash: true,
     exportPathMap: function () {
       return {
         '/': { page: '/' }
