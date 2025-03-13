@@ -1,5 +1,5 @@
 module.exports = {
-    basePath: 'https://github.com/Dimasariza/STP_Maritime',
+    // basePath: '/app',
     output: 'export',
     distDir: 'dist',
     trailingSlash: true,
