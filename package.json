@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Dimasariza/STP_Maritime",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d out",
     "dev": "node ssr-server.js",
     "build": "next build & next export",
     "start": "next start",
