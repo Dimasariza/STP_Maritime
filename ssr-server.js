@@ -91,7 +91,7 @@ const sendCode = async (code) => {
     }
 }
 
-http.listen(3000, async () => {
+http.listen(process.env.PORT || 3000, async () => {
     console.log('listening on *: 3000')
     // open('http://localhost:3000')
     // port = await selectPort()
